@@ -9,7 +9,7 @@ You can test the app on your device with the Expo [demo app](https://exp.host/@m
 ## Running
 
 ```
-npm -i -g exp
+npm i -g exp
 
 git clone https://github.com/novalabio/react-native-maps-super-cluster-example.git clusteredMap
 
