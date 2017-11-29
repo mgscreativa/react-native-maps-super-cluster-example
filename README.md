@@ -8,16 +8,28 @@ You can test the app on your device with the Expo [demo app](https://exp.host/@m
 
 ## Running
 
+#### iOS
 ```
-npm i -g exp
-
 git clone https://github.com/novalabio/react-native-maps-super-cluster-example.git clusteredMap
 
 cd clusteredMap
 
 npm i
 
-npm start
+react-native run-ios
+```
+
+#### Android
+```
+git clone https://github.com/novalabio/react-native-maps-super-cluster-example.git clusteredMap
+
+cd clusteredMap
+
+npm i
+
+// replace <GM_API_KEY> in android/app/src/main/AndroidManifest.xml
+
+react-native run-android
 ```
 
 ## TODO
